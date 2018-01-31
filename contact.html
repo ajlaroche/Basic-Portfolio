@@ -12,39 +12,51 @@
 </head>
 
 <body>
-    <header>
-        <h1>
-            Antony Laroche
-        </h1>
-        <a href="./index.html">About</a>
-        <a href="./portfolio.html">Portfolio</a>
-        <a href="./contact.html">Contact</a>
-    </header>
-    <section>
-        <h2>Contact</h2>
-        <form>
-            Name
-            <br>
-            <input type="text" value="John Smith">
-            <br> Email
-            <br>
-            <input type="text" value="example@gmail.com">
-            <br> Message
-            <br>
-            <input type="text">
-            <br>
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-    <aside class="sidebar">
-        <h3>Connect with Me</h3>
-        <hr>
-        <img src="./assets/images/GitHubIcon.png" alt="GitHub">
-        <img src="./assets/images/linkedInIcon.png" alt="LinkedIn">
-        <img src="./assets/images/StackOverflowIcon.png" alt="Stacked Overflow">
+    <div class="wrapper">
+        <header>
+            <h1>
+                Antony Laroche
+            </h1>
+            <nav>
+                <a href="./index.html">About</a>
+                <a href="./portfolio.html">Portfolio</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
 
-    </aside>
-    <footer>
+        </header>
+        <div class="clearfix">
+            <section>
+                <h2>Contact</h2>
+                <form>
+                    Name
+                    <br>
+                    <input type="text" value="" placeholder="John Smith" class="NameEmail">
+                    <br>
+                    <br> Email
+                    <br>
+                    <input type="text" value="" placeholder="example@gmail.com" class="NameEmail">
+                    <br>
+                    <br> Message
+                    <br>
+                    <input type="text" value="" id="ContactMessageBox">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit" class="Buttons">
+                </form>
+            </section>
+            <aside class="sidebar">
+                <h3>Connect with Me</h3>
+                <div class="SocialLinks">
+                    <img src="./assets/images/GitHubIcon.png" alt="GitHub">
+                    <img src="./assets/images/linkedInIcon.png" alt="LinkedIn">
+                    <img src="./assets/images/StackOverflowIcon.png" alt="Stacked Overflow">
+                </div>
+            </aside>
+        </div>
+        <div class="push"></div>
+    </div>
+
+    <footer class="footer">
         <p>@Copyright 2018 Antony Laroche</p>
     </footer>
 
